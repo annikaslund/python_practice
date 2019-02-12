@@ -1,2 +1,5 @@
 def is_palindrome(str):
-    mid_idx = str.length / 2
+    """ takes in a phrase and returns a boolean 
+    indicating if str is a palindrome """
+    
+    return str == str[::-1]
